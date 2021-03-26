@@ -115,7 +115,7 @@ footer div.a_footer_box div.a_footer {margin: 15px 0; padding: 10px 0; border-bo
 
 
 @media (max-width: 830px) {
-    header div.box {display: flex; flex-wrap: wrap;}
+    header div.box {flex-wrap: wrap;}
     
     header div.logo {width: 100%; margin-bottom: 30px;}
 
