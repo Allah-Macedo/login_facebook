@@ -39,16 +39,42 @@ main div.box {display: flex;}
 main section.network {width: 60%; padding: 0 20px;}
 main section.network img {width: 100%; margin-top: 10px;}
 
-main section.form_main {width: 40%; position: relative; left: 10%;}
+main section.form_main {width: 50%; position: relative; padding-left: 8%;}
+
+main section.form_main h1 {font-size: 30pt; font-weight: normal;}
+main section.form_main h2 {font-size: 15pt; font-weight: normal; color: rgb(102, 170, 63);}
 
 main section.form_main form {display: flex; flex-wrap: wrap; width: 100%; padding: 10px 0;}
 main section.form_main form div.box_input_main {padding: 3px 5px;}
 main section.form_main form div.box_input_main input[type="text"],
 main section.form_main form div.box_input_main input[type="email"],
-main section.form_main form div.box_input_main input[type="password"] {width: 100%; height: 35px; border-radius: 5px; border: none; padding: 0 3px; outline: none;}
+main section.form_main form div.box_input_main input[type="password"] {width: 100%; height: 35px; border-radius: 5px; border: none; padding: 5px 8px; outline: none; font-size: 13pt;}
 
 main section.form_main form div.box_input_main_submit {padding: 5px 6px;}
 main section.form_main form div.box_input_main_submit input[type="submit"] {height: 40px; padding: 0 10px; color: white; background: green; border: none; border-radius: 5px; cursor: pointer;}
 main section.form_main form div.box_input_main_submit input[type="submit"]:hover {background: rgb(2, 99, 2); color: rgb(214, 209, 209);}
+
+main section.form_main div.select_class {margin-top: 15px; padding: 10px;}
+main section.form_main div.select_class h2 {font-size: 16pt; font-weight: normal; color: rgb(97, 97, 84); margin-bottom: 5px;}
+
+main section.form_main div.select_class div.selects select {display: inline-block; width: 17%;  margin: 0 -3.5px; padding: 5px 0px; border: none;}
+main section.form_main div.select_class div.selects select option {padding: 10px; height: 50%; font-size: 16pt;}
+main section.form_main div.select_class div.selects p {display: inline-block; width: 45%; position: relative; top: 5px; margin-left: 10px; font-size: 9pt; color: rgb(93, 110, 110);}
+
+main section.form_main div.radio_gender {margin-left: 10px; padding: 10px 0;}
+main section.form_main div.radio_gender input[type="radio"] {margin: -5px;}
+main section.form_main div.radio_gender span {margin-right: 15px;}
+
+main section.form_main div.box_p {padding: 10px; font-size: 10pt; color: rgb(60, 80, 80);}
+main section.form_main div.box_p a {color: rgb(90, 119, 61); text-decoration: none;}
+
+/* footer */
+footer {padding: 15px;}
+
+footer div.a_footer_box {padding: 0 50px;}
+footer div.a_footer_box a {text-decoration: none; font-size: 10pt; color: rgb(0, 128, 128);}
+footer div.a_footer_box div.a_footer {margin: 15px 0; padding: 10px 0; border-bottom: 1px solid rgb(116, 145, 130);}
+
+
 
 
