@@ -1,0 +1,29 @@
+/* media */ 
+
+/*
+@media (max-width: 1030px) {
+    header {text-align: center;}
+    header div.logo {width: 100%;}
+    header form.form_header {width: 100%;text-align: center; padding: 20px 0;}
+}
+
+
+@media (max-width: 900px) {
+    main {text-align: center;}
+
+    main section.network {width: 100%; max-width: 700px; margin: auto; background-color: cornflowerblue;}
+    header div.logo {background: rgb(0, 0, 0); }
+
+    main section.form_main {background: rgb(224, 40, 40); width: 100%; max-width: 700px; padding-left: 0; position: relative; left: 50%; transform: translate(-50%);}
+    main section.form_main form{padding: 30px 0;}
+    main section.form_main form div.box_input_main{margin: 5px 0;}
+    main section.form_main form div.box_input_main input[type="text"],
+    main section.form_main form div.box_input_main input[type="email"],
+    main section.form_main form div.box_input_main input[type="password"] {padding: 25px 8px;} 
+
+}
+
+
+@media (max-width: 768px) {
+    header div.logo {background: aqua; }
+}
