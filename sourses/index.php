@@ -78,10 +78,9 @@
                               <option value="" disabled>Dia</option>
                               <?php
                                   for($i = 0; $i <= 31; $i++) {
-                               ?>
-                              
-                                <option value="<?php echo"$i"; ?>"> <?php echo"$i"; ?></option>
-                                <?php } ?>
+                              ?>
+                              <option value="<?php echo"$i"; ?>"> <?php echo"$i"; ?></option>
+                              <?php } ?>
                             </select>
 
                             <select name="" class="mes">
@@ -97,8 +96,8 @@
                                 <?php
                                     for($i = 1950; $i <= 2010; $i++) {
                                 ?>
-                                    <option value="<?php echo"$i"; ?>"> <?php echo"$i"; ?></option>
-                                    <?php } ?>
+                                <option value="<?php echo"$i"; ?>"> <?php echo"$i"; ?></option>
+                                <?php } ?>
                             </select>
                             <p>Porquê preciso informar minha data de nascimento?</p>
                         </div><!-- selects -->
@@ -146,7 +145,11 @@
             </div> <!-- /.a_footer -->
 
             <div class="duex_footer">
+                <?php
+                    for ($i = 0; $i <= 21; $i++){
+                ?>
                 <a href="#">Flaus Belis</a>
+                <?php } ?>
             </div> <!-- /.duex_footer -->
            
         </div> <!-- /.a_footer -->
